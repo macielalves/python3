@@ -29,15 +29,15 @@ def estatus(txt):
         return 'Reprovado'
 
 
-n_matricula = input().strip()
-nota1 = float(input().strip())# 1º nota
-nota2 = float(input().strip())# 2º nota
-nota3 = float(input().strip())# 3º nota
-media_exercicios = float(input().strip())
+n_matricula = input("Digite sua matrícula:").strip()
+nota1 = float(input("Primeira nota: ").strip())# 1º nota
+nota2 = float(input("Segunda nota: ").strip())# 2º nota
+nota3 = float(input("Terceira nota: ").strip())# 3º nota
+media_exercicios = float(input("Nota media de exercícios: ").strip())
 mf = media_final(nota1, nota2, nota3, media_exercicios)
 conceito = conceito(mf)
 
-print(n_matricula)
-print(f'{mf:.2f}')
-print(conceito)
-print(estatus(conceito))
+print(f'\nMatrícula: {n_matricula}')
+print(f'Média final: {mf:.2f}')
+print(f'Conceito: {conceito}')
+print(f'Estado: {estatus(conceito)}')

@@ -15,5 +15,11 @@ def edivisivel(n):
             return n
 
 
-n = int(input())
-print(edivisivel(n))
+def main():
+    print('Mostra FIZZ se for divisível por 3, BUZZ se divisível por 5, se divisível por 3 e por 5 mostra FIZZBUZZ e se não for divisível mostra o próprio número!')
+    n = int(input('Digite um número: '))
+    print(edivisivel(n))
+
+
+if __name__=="__main__":
+    main()

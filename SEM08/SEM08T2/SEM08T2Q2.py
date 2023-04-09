@@ -21,5 +21,10 @@ def soma_digito(n=0):
         return -1
 
 
-n = int(input())
-print(soma_digito(n))
+def main():
+    n = int(input('Digite um número inteiro entre 0 e 100000: '))
+    print(f'A soma dos digitos do número digitado é {soma_digito(n)}')
+
+
+if __name__=="__main__":
+    main()

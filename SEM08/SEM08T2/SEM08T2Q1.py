@@ -6,5 +6,11 @@ def soma5ou8(n=0):
     return n
 
 
-n = int(input())
-print(soma5ou8(n))
+def main():
+    print('Soma por 5 se for par e soma por 8 se for impar')
+    n = int(input('Digite um número: '))
+    print(f'O resultado é {soma5ou8(n)}')
+
+
+if __name__=="__main__":
+    main()
