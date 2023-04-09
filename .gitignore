@@ -1,4 +1,8 @@
-./DESAFIOS
-./__pycache__
+DESAFIOS/
+__pycache__/
+sem07-T1/
+carro.py
+desafios.py
+pyteste.py
+pyteste1.py
 
-./*.py
