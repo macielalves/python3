@@ -125,13 +125,13 @@ if __name__ == '__main__':
 
 >    ! Agradeço qualquer comentário de correção, sei que tem muitos erros, mas espero consertar, então se não estou vendo, que esclareça para este pobre cego.
 
-[img-01]:https://github.com/macielalves/python3/blob/main/SEM08/SEM08T3/img/01.png
+[img-01]:https://github.com/macielalves/python3/blob/main/SEM08/SEM08T3/img/01.png?raw=true
 
-[img-02]:https://github.com/macielalves/python3/blob/main/SEM08/SEM08T3/img/02.png
+[img-02]:https://github.com/macielalves/python3/blob/main/SEM08/SEM08T3/img/02.png?raw=true
 
-[img-03]:https://github.com/macielalves/python3/blob/main/SEM08/SEM08T3/img/03.png
+[img-03]:https://github.com/macielalves/python3/blob/main/SEM08/SEM08T3/img/03.png?raw=true
 
-[img-04]:https://github.com/macielalves/python3/blob/main/SEM08/SEM08T3/img/04.png
+[img-04]:https://github.com/macielalves/python3/blob/main/SEM08/SEM08T3/img/04.png?raw=true
 
 [img-05]:https://github.com/macielalves/python3/blob/main/SEM08/SEM08T3/img/05.png?raw=true
 
