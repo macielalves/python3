@@ -44,7 +44,7 @@ def separar_data(dma):
     return d, m, a
 ```
 
-* [**02.png**](https://drive.google.com/file/d/1fhq8H-uDAWPI-cPBNuMNqBVG7GPbUNys/view?usp=drive_web&authuser=0)
+* [**02.png**](/python3/SEM08/SEM08T3/img/02.png)
 ```python
 def signo(dia, mes):
     if mes == 3:
