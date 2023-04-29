@@ -1,4 +1,4 @@
-import tkinter
-import os
+# import tkinter
+# import os
 
-tkinter.Tk().mainloop()
+# tkinter.Tk().mainloop()

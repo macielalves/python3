@@ -1,6 +1,6 @@
 # def ler_conjunto_de_cem():
 x = 0
-raio = 4
+raio = 100
 for n in range(raio):
     n += 1
     numero = int(input())
