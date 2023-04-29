@@ -1,7 +1,7 @@
 # Programa que escreve uma sequência de números inteiros de 1 a 50.
 
 
-def conte_ate(n: int = int) -> None:
+def conte_ate(n):
     for i in range(n):
         print(i+1)
 
