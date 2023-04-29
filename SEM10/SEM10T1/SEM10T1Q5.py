@@ -1,10 +1,8 @@
-# def ler_conjunto_de_cem():
+# O programa que mostra qual o maior valor digitado em um conjunto de 100 números
 x = 0
-raio = 100
-for n in range(raio):
-    n += 1
+for i in range(100):
     numero = int(input())
-    if numero > x:
+    if x <= numero:
         x = numero
 
 print(x)
