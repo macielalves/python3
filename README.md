@@ -1,7 +1,5 @@
 # Python3
 
-- #### Este repositório é para registrar o desempenho de desenvolvedor.
-
 | Semanas |       Conteúdos        |
 |:-------:|:----------------------:|
 |  sem03  |      Hello World       |
