@@ -1,6 +1,5 @@
+# Recebe um valor e o parcela de 1 a 24 vezes
 valor = float(input())
-n = 1
 for i in range(24):
-    valor_parcelado = valor / n
-    print(f'{n}x de R$ {valor_parcelado:.2f}')
-    n += 1
+    valor_parcelado = valor / (i+1)
+    print(f'{i+1}x de R$ {valor_parcelado:.2f}')
