@@ -10,4 +10,4 @@
 |  sem08  | Condicionais Aninhadas |
 |  sem09  |  Operadores Ternários  |
 |  sem10  |        Laço For        |
-|  sem11  |           #            |
+|  sem11  |       Loop While       |
