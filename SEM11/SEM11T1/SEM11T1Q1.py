@@ -2,8 +2,8 @@
 
 def main():
     # Valor Principal
-    p = float(input('Digite o valor do depósito inicial: '))
-    juros = float(input('Digite a taxa de juros ao ano da poupança: '))
+    p = float(input())
+    juros = float(input())
 
     # Converter para fração de 100 ()
     juros /= 100
@@ -27,8 +27,8 @@ def main():
         tempo += 1
 
         # print(f"{anos:^8} | {p:^8.2f}")  # Formatação principal
-        print(tempo)
-        print(f'{p:.2f}')
+    print(tempo)
+    # print(f'{p:.2f}')
 
 
 if __name__ == "__main__":

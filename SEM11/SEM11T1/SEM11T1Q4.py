@@ -1,20 +1,12 @@
 def main():
-    numeros = input().strip()
+    numero = int(input())
+    inverso = 0
+    while numero > 0:
+        unidades = numero % 10
+        inverso = (inverso*10) + unidades
+        numero //= 10
 
-    if numeros.isnumeric():
-        print(numeros[::-1])
-
-    # invertidos = 0
-    # resultado = ''
-    # while True:
-    #     invertidos = (numero % 10)
-    #     numero //= 10
-    #     resultado += str(invertidos)
-    #
-    #     if numero <= 0 and invertidos != 0:
-    #         print(f'{resultado}')
-    #         break
-    # numero = int(input('Digite um número: '))
+    print(inverso)
 
 
 if __name__ == "__main__":

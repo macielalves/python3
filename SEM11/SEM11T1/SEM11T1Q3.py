@@ -6,7 +6,7 @@ def main():
     trava = 1
 
     while True:
-        numbers = abs(int(input('Digite qualquer número e se quiser parar é só digitar 0: ')))
+        numbers = abs(int(input()))
 
         # é maior que zero e maio que maior
 
@@ -23,9 +23,9 @@ def main():
 
         elif numbers == 0:
             break
-
-    print('O maior', maior)
-    print('O menor', menor)
+    if maior != 0 and menor != 0:
+        print(maior)
+        print(menor)
 
 
 if __name__ == "__main__":

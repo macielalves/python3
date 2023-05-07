@@ -3,7 +3,7 @@ def main():
     termos = 0
 
     while True:
-        num = abs(int(input('Digite um número inteiro: ')))
+        num = abs(int(input()))
         if num != 0:
             termos += 1
         else:
@@ -15,8 +15,8 @@ def main():
 
     # Processamento da média
     media = soma / termos
-
-    print(f'{media:.2f}')
+    if media != 0:
+        print(f'{media:.2f}')
 
 
 if __name__ == "__main__":

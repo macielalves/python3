@@ -13,15 +13,15 @@ def main():
             print('Digite um valor válido!')
         else:
             if op in (0, 1, 2, 3):
-                if op in 0:
-                    print('Fim de serviço.')
+                if 0 == op:
+                    print('0 - Fim de serviço.')
                     break
-                if op in 1:
-                    print('Olá. Como vai?')
-                if op in 2:
-                    print('Vamos estudar mais.')
-                if op in 3:
-                    print('Meus Parabéns!')
+                if 1 == op:
+                    print('1 - Olá. Como vai?')
+                if 2 == op:
+                    print('2 - Vamos estudar mais.')
+                if 3 == op:
+                    print('3 - Meus Parabéns!')
             else:
                 print("Opção inválida.")
                 continue

@@ -5,15 +5,14 @@ def main():
         try:
             num = int(input())
         except ValueError:
-            print('Digite um valor válido!')
+            print()
             continue
         else:
             if num == 0:
                 break
             soma += num
 
-    if soma != 0:
-        print(soma)
+    print(soma)
 
 
 if __name__ == "__main__":

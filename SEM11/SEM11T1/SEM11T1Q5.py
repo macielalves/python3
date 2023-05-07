@@ -18,8 +18,7 @@ def main():
         divida += (divida * (15 / 100))
         periodo += 1
 
-    print(mes)
-    print(ano)
+    print(mes, ano, sep='/')
 
 
 if __name__ == "__main__":
