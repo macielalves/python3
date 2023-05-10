@@ -7,9 +7,9 @@ seed()
 
 def main():
     print('''
-    Vinte e um!
-    ===========
-    Tente fazer exatamente 21 pontos!
+Vinte e um!
+===========
+Tente fazer exatamente 21 pontos!
     ''')
 
     jogando = True
