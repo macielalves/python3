@@ -4,6 +4,7 @@ from random import randint, seed
 # inicializa o gerador de números aleatórios
 seed()
 
+
 def main():
     print('''
     Vinte e um!
