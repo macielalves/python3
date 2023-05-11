@@ -10,7 +10,7 @@ def main():
 Vinte e um!
 ===========
 Tente fazer exatamente 21 pontos!
-    ''')
+''')
 
     jogando = True
     pontos = 0
