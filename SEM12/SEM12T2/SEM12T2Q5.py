@@ -10,10 +10,10 @@ def verificar_primo(numero):
 
 
 def main():
-    x = int(input("Digite o valor de x: "))
-    y = int(input("Digite o valor de y: "))
+    x = int(input("Digite um número inteiro para x: "))
+    y = int(input("Digite um número inteiro para y: "))
 
-    print(f"Números primos entre {x} e {y}:")
+    print(f"Os números primos entre {x} e {y}:")
     for numero in range(x, y + 1):
         if verificar_primo(numero):
             print(numero)

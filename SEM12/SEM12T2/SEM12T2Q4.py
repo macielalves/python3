@@ -1,4 +1,4 @@
-def verificar_primo(numero):
+def e_primo(numero):
     if numero < 2:  # não inclui os números negativos e nem 0 ou 1
         return False
 
@@ -11,11 +11,9 @@ def verificar_primo(numero):
 
 def main():
     numero = int(input("Digite um número inteiro: "))
+    primo = e_primo(numero)
 
-    if verificar_primo(numero):  # como if responde a True e False assim posso usar a saída da função como condição
-        print(f"O número {numero} é primo.")
-    else:
-        print(f"O número {numero} não é primo.")
+    print(primo)
 
 
 if __name__ == "__main__":

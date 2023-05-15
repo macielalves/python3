@@ -14,7 +14,7 @@ def main():
 
     resultado = fatorial(numero)
 
-    print(f"O fatorial de {numero} é {resultado}.")
+    print(f"O fatorial de {numero} é {resultado}")
 
 
 if __name__ == "__main__":

@@ -11,13 +11,13 @@ def alcanca(distancia_ha_frente):
 
 def main():
     # entrada de dados
-    distancia_vantagem = float(input())
+    distancia_vantagem = float(input("Digite quantos metros a tartaruga saiu a frente da lebre: "))
 
     # processamento de dados
     tempo_de_alcance = alcanca(distancia_vantagem)
 
     # saída de dados
-    print(f'{tempo_de_alcance:.0f}')
+    print(f'A lebre alcança depois de {tempo_de_alcance:.0f} minutos')
 
 
 if __name__ == "__main__":

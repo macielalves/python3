@@ -8,10 +8,10 @@ def calcular_numero_da_sorte(data_nascimento):
 
 
 def main():
-    data_nascimento = int(input("Digite a data de nascimento no formato ddmmaaaa: "))
+    data_nascimento = int(input("Digite sua data de nascimento no formato ddmmaaaa: "))
     numero_da_sorte = calcular_numero_da_sorte(data_nascimento)
 
-    print(f"O número da sorte é {numero_da_sorte}.")
+    print(f"Seu número da sorte é {numero_da_sorte}.")
 
 
 if __name__ == "__main__":

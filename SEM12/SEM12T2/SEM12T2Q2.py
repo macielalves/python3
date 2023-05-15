@@ -13,9 +13,12 @@ def main():
 
     termos_fibonacci = fibonacci(n)
 
-    print("Os primeiros", n, "termos da Sequência de Fibonacci são:")
+    termos = ''
     for termo in termos_fibonacci:
-        print(termo, end=" ")
+        termos += str(termo) + ', '
+
+    termos = termos.rstrip(", ")
+    print(f"{termos}")
 
 
 if __name__ == "__main__":

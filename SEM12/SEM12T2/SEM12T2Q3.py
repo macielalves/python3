@@ -8,11 +8,11 @@ def valor_de_H(n):
 
 
 def main():
-    n = int(input("Digite um número inteiro: "))
+    n = int(input("Digite um número para n fatores da série H = 1 + 1/2 + 1/3+ ... + 1/n : "))
 
     valor_H = valor_de_H(n)
 
-    print(f"O valor de H para n = {n} é {valor_H}.")
+    print(f"O valor de H é {valor_H:.4f}")
 
 
 if __name__ == "__main__":
