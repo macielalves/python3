@@ -9,13 +9,13 @@ def multiplica_contanste(lista, constante):
 def main():
     lista = []
     while True:
-        numero = int(input())
+        numero = int(input('Digite um número: '))
         if numero == 0:
             break
         else:
             lista.append(numero)
 
-    k = int(input())
+    k = int(input('Digite um numero para ser o multiplicador: '))
     multiplicados = multiplica_contanste(lista, k)
     print(multiplicados)
 

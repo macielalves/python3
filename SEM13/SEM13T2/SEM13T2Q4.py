@@ -21,7 +21,7 @@ def main():
 
     # Entrada de dados
     while True:
-        n = int(input())
+        n = int(input('Digite um número. Sair digite 0: '))
         if n == 0:
             break
 

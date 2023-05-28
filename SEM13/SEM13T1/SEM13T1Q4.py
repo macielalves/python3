@@ -5,7 +5,7 @@ def lista_numeros():
 
     for i in range(20):
         try:
-            numero = int(input())
+            numero = int(input('Digite um número: '))
         except ValueError:
             continue
         else:
@@ -20,8 +20,8 @@ def lista_numeros():
 def main():
     lista, par, impar = lista_numeros()
     print(lista)
-    print(par)
-    print(impar)
+    print('Números pares:', par)
+    print('Números impares:', impar)
 
 
 if __name__ == "__main__":

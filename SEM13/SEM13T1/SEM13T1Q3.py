@@ -1,7 +1,7 @@
 def lista_invertida(tamanho_da_lista):
     lista = []
     for i in range(tamanho_da_lista):
-        real = float(input())
+        real = float(input(f"Digite um número real: "))
         real = round(real, 4)
         lista.insert(0, real)
 
@@ -11,7 +11,7 @@ def lista_invertida(tamanho_da_lista):
 def calcula_notas(n):
     notas = []
     for i in range(n):
-        nota = round(float(input()), 1)
+        nota = round(float(input("Digite uma nota: ")), 1)
         notas.append(nota)
 
     return notas
@@ -35,7 +35,7 @@ def letras_lidas(n):
     maiusculas = []
     if n != 0:
         for i in range(n):
-            abc = input()[0]
+            abc = input("Digite uma letra: ")[0]
             if abc.lower() in ('a', 'e', 'i', 'o', 'u'):
                 vogais.append(abc)
             elif abc.isalpha():
@@ -45,15 +45,15 @@ def letras_lidas(n):
 
 
 def main():
-    n = int(input())
+    n = int(input("Digite a quantidade de itens de sua lista: "))
     print(lista_invertida(n))
     notas = calcula_notas(n)
     media = media_lista(notas)
     print(notas)
-    print(media)
+    print(f" A media das notas é {media}")
     vogais, maiusculas = letras_lidas(n)
-    print(len(vogais))
-    print(maiusculas)
+    print(f'Vogais digitadas: {len(vogais)}')
+    print("Consoantes:", maiusculas)
 
 
 if __name__ == "__main__":

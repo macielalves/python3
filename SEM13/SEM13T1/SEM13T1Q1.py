@@ -18,7 +18,7 @@ def main():
     # entrada de 10 números em uma lista
     numeros = []
     for i in range(10):
-        numeros.append(int(input()))
+        numeros.append(int(input(f"Digite um número inteiro: ")))
 
     # processar soma e multiplicação
     soma = soma_lista(numeros)

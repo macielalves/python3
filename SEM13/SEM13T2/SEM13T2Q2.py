@@ -20,7 +20,7 @@ def main():
 
     # Entrada do usuário
     for i in range(100):
-        lista.append(int(input()))
+        lista.append(int(input('Digite um número: ')))
 
     # Processamento
     lista_ordenada = ordena_lista(lista)

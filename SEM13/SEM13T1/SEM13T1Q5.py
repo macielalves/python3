@@ -12,10 +12,10 @@ def main():
     l2 = []
     length = 25
     for lista in range(length):
-        l1.append(int(input()))
+        l1.append(int(input('Digite um número: ')))
 
     for lista in range(length):
-        l2.append(int(input()))
+        l2.append(int(input('Digite um número: ')))
 
     lista3 = intercala_lista(l1, l2, length)
     print(l1)
