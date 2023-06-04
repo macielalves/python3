@@ -13,3 +13,4 @@
 |  sem11  |       Loop While       |
 |  sem12  |      While e For       |
 |  sem13  |         Listas         |
+|  sem14  |    Listas e tuplas     |
