@@ -1,4 +1,6 @@
 from semaforo import Semaforo
+import sys
+import os
 
 
 class Color:
@@ -6,6 +8,8 @@ class Color:
     success = "\033[42m"+"\033[1m"+"\033[30m"
     error = "\033[41m"+"\033[1m"+"\033[30m"
     clear = "\033[0m"
+    green = os.system("color a0")
+    cls = os.system("cls")
 
 
 
@@ -32,10 +36,14 @@ s1.ligar()
 
 def log_semaforo(string):
     if "verde" in string:
+        os.system("cls")
+        print(os.getcwd())
         return f"{cores.success + string + cores.clear}"
     elif "amarelo" in string:
+        os.system("cls")
         return f"{cores.warning + string + cores.clear}"
     elif "vermelho" in string:
+        os.system("cls")
         return f"{cores.error + string + cores.clear}"
 
 
